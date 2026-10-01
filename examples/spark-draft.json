@@ -1,0 +1,15 @@
+{
+  "sku": "dgx-spark-128",
+  "title": "NVIDIA DGX Spark 128GB GB10 Grace Blackwell",
+  "description": "Used DGX Spark. 128GB coherent LPDDR5X, GB10, 4TB NVMe. Describe condition honestly before proposing.",
+  "price": { "value": "4200.00", "currency": "USD" },
+  "categoryId": "175672",
+  "quantity": 1,
+  "condition": "USED_EXCELLENT",
+  "merchantLocationKey": "home",
+  "listingPolicies": {
+    "fulfillmentPolicyId": "REPLACE_ME",
+    "paymentPolicyId": "REPLACE_ME",
+    "returnPolicyId": "REPLACE_ME"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ebay-gated-sell",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Human-gated eBay Sell Inventory sample. Drafts are open. Publish, revise, and withdraw require an approval card whose hash matches the payload.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": { "node": ">=22" },
+  "bin": { "ebay-gated-sell": "./dist/index.js" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
